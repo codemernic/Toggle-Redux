@@ -12,7 +12,9 @@ function App() {
           darkMode ? "bg-gray-900 text-white" : "bg-white text-black"
         }`}
       >
-        <h1 className="text-3xl font-bold mb-4">Dark mode</h1>
+        <h1 className="text-3xl font-bold mb-4">
+          {darkMode ? "Dark mode" : "Light mode"}
+        </h1>
         <button
           className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded shadow"
           onClick={() => dispatch(toggleTheme())}
