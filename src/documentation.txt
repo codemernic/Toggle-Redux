@@ -1,0 +1,2 @@
+className={`min-h-screen flex flex-col items-center justify-center transition-all duration-300 ${
+        darkMode ? "bg-gray-900 text-white" : "bg-white text-black"
